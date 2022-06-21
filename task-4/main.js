@@ -1,9 +1,15 @@
-const prompt = require('prompt');
-prompt.start();
+let num = 12;
+
+let tek;
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+while(num>0){
+    // debugger;
+    // let tekinteki = num;
+   if(num%2!=0){
+    tek = num;
+    console.log(num);
+    
+   }
+   num--;
+}
